@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="proiect.jnlp">
+  <information>
+    <title>proiect</title>
+    <vendor>Delian</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\proiect-Preloader.jar" size="3010" download="progress" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\mssql-jdbc-11.2.1.jre11.jar" size="1439489" download="eager" />
+    <jar href="lib\mssql-jdbc-11.2.1.jre17.jar" size="1439475" download="eager" />
+    <jar href="lib\mssql-jdbc-11.2.1.jre18.jar" size="1439000" download="eager" />
+    <jar href="lib\mssql-jdbc-11.2.1.jre8.jar" size="1426484" download="eager" />
+    <jar href="lib\mysql-connector-j-8.0.31.jar" size="2515519" download="eager" />
+    <jar href="lib\ojdbc14-10.2.0.2.0.jar" size="1545954" download="eager" />
+    <jar href="lib\sqlserverjdbc.jar" size="517093" download="eager" />
+    <jar href="proiect.jar" size="59681" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="proiect.Proiect"  name="proiect"  preloader-class="proiect.preloader.proiect_Preloader"/>
+  <update check="always"/>
+</jnlp>
